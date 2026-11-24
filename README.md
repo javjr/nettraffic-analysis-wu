@@ -48,6 +48,7 @@ All experiments are conducted in a self-hosted virtualized environment:
 | :--- | :--- | :--- | :--- | :--- |
 | 01 | [`01-analysis-sS`](./01-analysis-sS/) | VLAN-to-VLAN TCP SYN Scan & Firewall Drop Analysis | Nmap, Wireshark, MikroTik | Packet Inspection & Firewall Filtering |
 | 02 | [`02-analysis-sS`](./02-analysis-sS/) | VLAN20 to VLAN10 TCP SYN Scan on open port without Firewall Drop Analysis | Nmap, Wireshark, MikroTik, netcat | Packet Inspection & anomaly vs normal traffic|
+| 03 | [`02-analysis-http`](./02-analysis-http/) | VLAN20 to VLAN10 http request on port `8080` | python3, wget, Wireshark, MikroTik |traffic on http protocol & follow TCP stream|
 
 > *More scenarios covering firewall logging, lateral movement detection, and Linux host hardening will be added continuously.*
 
